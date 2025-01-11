@@ -1,7 +1,7 @@
 # FamilyShareProject - Software Engineering Course
 
-![1642956405214](https://github.com/user-attachments/assets/1ebd5ebb-844a-4060-b866-efcd0bc35684)
-![1642957214341](https://github.com/user-attachments/assets/666f953b-ed93-4326-a52d-357ed4a15e71)
+![1642956405214](https://github.com/user-attachments/assets/e487232b-74b2-487d-83bf-25c65b584700)
+![1642957214341](https://github.com/user-attachments/assets/fe7e3ef5-77dd-4204-a2c5-fbeb2a5e5b83)
 
 
 ## 📁 Project Overview
