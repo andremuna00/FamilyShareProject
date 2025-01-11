@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <TextView
+        android:id="@+id/day_text"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/day"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hours_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/hours"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/activity_text"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/activity_name"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/n_adult_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="77dp"
+        android:text="@string/_3"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/n_children_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="266dp"
+        android:layout_marginTop="77dp"
+        android:text="@string/_3"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/month_text"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="69dp"
+        android:text="@string/month"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/clock_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/clock_icon"
+        app:srcCompat="@drawable/clock_icon" />
+
+    <ImageView
+        android:id="@+id/green_pass_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="@string/green_pass_notification_icon"
+        app:srcCompat="@drawable/alert_icon" />
+
+    <ImageView
+        android:id="@+id/trash_bin_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="72dp"
+        android:contentDescription="@string/trash_bin_icon"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/trash_bin_icon" />
+
+    <ImageView
+        android:id="@+id/plus_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="@string/plus_icon"
+        app:srcCompat="@drawable/plus_icon" />
+
+    <ImageView
+        android:id="@+id/children_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="76dp"
+        android:contentDescription="@string/children_icon"
+        app:srcCompat="@drawable/child_icon"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/activity_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="@string/activity_icon"
+        app:srcCompat="@drawable/bookmark_icon" />
+
+    <ImageView
+        android:id="@+id/adult_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="77dp"
+        android:contentDescription="@string/adult_icon"
+        app:srcCompat="@drawable/couple_icon"
+        tools:ignore="ImageContrastCheck" />
+</RelativeLayout>
